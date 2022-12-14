@@ -1,3 +1,101 @@
 body {
-  background: peachpuff;
+  background: papayawhip;
 }
+*{
+  width: 80em;
+}
+.a{
+  background-color: dodgerblue;
+  height: 10em;
+  margin: 1em;
+  text-align: center;
+  border: 2px solid;
+  width: 75.5em;
+}
+
+.b{
+  background-color: darkcyan;
+  height: 18em;
+  margin: 1em;
+  border: 2px solid;
+  text-align: center;
+  width: 18em;
+  display: inline-flex;
+}
+
+.c{
+  background-color: darkseagreen;
+  display: inline-flex;
+  width: 18em;
+  height: 18em;
+  border: 2px solid;
+  margin: 1em;
+}
+.d{
+  background-color: cornflowerblue;
+  display: inline-flex;
+  width: 18em;
+  height: 18em;
+  border: 2px solid;
+  margin: 1em;
+}
+.e{
+  background-color: lightblue;
+  display: inline-flex;
+  width: 18em;
+  height: 18em;
+  border: 2px solid;
+  margin: 1em;
+}
+.f{
+  background-color: dodgerblue;
+  display: inline-flex;
+  width: 18em;
+  position: relative;
+  height: 18em;
+  border: 2px solid;
+  margin: 1em;
+}
+.g{
+  background-color: cyan;
+  display: inline-flex;
+  width: 18em;
+  height: 18em;
+  margin: 1em;
+  border: 2px solid;
+  position: relative;
+}
+.h{
+  background-color: lightskyblue;
+  display: inline-flex;
+  width: 14em;
+  height: 38em;
+  position: relative;
+  bottom: 20.2em;
+  margin: 1em;
+  border: 2px solid;
+}
+@media screen and (max-width: 800px){
+  .container{
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 70vh;
+  }
+  .a{
+    width: 57.3vh;
+    height: 11vh;
+    margin: 1vh;
+  }
+  .b, .c, .d, .e, .f, .g{
+    width: 17vh;
+    height: 17vh;
+    margin: 1vh;
+  }
+  .h{
+    width: 57.3vh;
+    height: 42vh;
+    bottom: 0;
+    margin: 1vh;
+  }
+}
+
